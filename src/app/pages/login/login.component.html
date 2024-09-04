@@ -1,0 +1,55 @@
+<div class="w-screen h-screen bg-white md:bg-gray-50 relative">
+    <div class="absolute w-full h-full hidden md:block">
+        <img class="absolute md:w-[calc(50%-255px)] xl:w-96 left-0 bottom-0 " src="../../../assets/image/logo/login-bg-left.svg" alt="bg left">
+        <img class="absolute md:w-[calc(50%-255px)] xl:w-96 right-0 bottom-0 " src="../../assets/image/logo/login-bg-right.svg" alt="gb right">
+    </div>
+    <div class="relative w-96 m-auto md:w-[400px] h-full grid items-center">
+        <div class="relative pt-1 pb-4 py-6 px-6 md:rounded md:drop-shadow-xl md:pt-4 bg-white h-full md:h-[42rem]">
+            <div class="h-[39rem] ">
+                <header class="pt-2 pb-2 md:pt-6 scale-75 md:scale-100 flex justify-center">
+                    <img src="../../../assets/image/logo/trello-logo-gradient-blue-attribution_rgb.svg" alt="logo trello">
+                </header>
+                <div class="mb-4">
+                    <h1 class="text-center font-semibold pt-4 pb-8">Log in to continue</h1>
+                    <form novalidate class="space-y-4">
+                        <div class="relative">
+                            <input placeholder="Enter email" type="text" class="w-full rounded bg-gray-100 border-2 border-gray-300">
+                        </div>
+                        <div class="relative">
+                            <input placeholder="Enter password" type="password" class="w-full rounded bg-gray-100 border-2 border-gray-300">
+                        </div>
+                        <div class="">
+                            <app-btn [typeBtn]="'submit'" [color]="'warning'">Log In</app-btn>
+                        </div>
+                        <div class="flex justify-center text-blue-600 text-sm">
+                            <a href="" class="">Can't log in?</a>
+                            <span class="w-1 h-1 m-2.5 bg-gray-900 rounded-full dark:bg-gray-700"></span>
+                            <a href="">Create an account</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="absolute bottom-0">
+                <div class="flex m-auto w-[calc(100%-30px)] bg-gray-300 h-px  dark:bg-gray-400"></div>
+                <div class="relative grid grid-cols-1 place-items-center pt-4 pb-2 text-gray-700 text-[0.7rem]"> 
+                    <img src="../../../assets/image/logo/horizontal-logo-gradient-neutral-atlassian.svg" 
+                    alt="logo gray scale" class="scale-75 pb-2">
+                    <span class="pb-2">One account for Trello, Jira, Confluence and 
+                        <a href="" class="text-blue-700">more.</a></span>
+                    <div class="flex justify-center align-middle pb-2">Privacy Policy
+                        <span class="w-1 h-1 m-2 bg-gray-900 rounded-full dark:bg-gray-700"></span>
+                        User Notice
+                    </div>
+                    <span>This site is protected by reCAPTCHA and the Google
+                        <a href="" class="text-blue-700">Privacy</a>
+                    </span>
+                    <span>
+                        <a href="" class="text-blue-700">Policy</a>
+                        and <a href="" class="text-blue-700">Terms of Service</a>
+                        apply.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
