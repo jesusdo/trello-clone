@@ -35,10 +35,7 @@ export class BtnComponent {
       'focus:ring-danger-300': this.color === 'danger',
       'bg-warning-700': this.color === 'warning',
       'hover:bg-warning-800': this.color === 'warning',
-      'focus:ring-warning-300': this.color === 'warning',
-      'bg-info-700': this.color === 'info',
-      'hover:bg-info-800': this.color === 'info',
-      'focus:ring-info-300': this.color === 'info'
+      'focus:ring-warning-300': this.color === 'warning'
     }
   }
 }
